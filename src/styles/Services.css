@@ -1,14 +1,19 @@
-
+section{
+  height: 90vh;
+}
 .header{
-  padding-top: 20px;
+  padding-top: 80px;
   margin-left: 45%;
+}
+.header span{
+  color: #CB2C31;
 }
 .services{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3;
-  padding-top: 3%;
+  padding-top: 7%;
   color: white;
   /* border-radius: 30px; */
  
