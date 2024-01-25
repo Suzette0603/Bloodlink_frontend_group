@@ -1,30 +1,30 @@
-*{
+/* *{ */
   /* padding: 0;
   margin: 0;
   box-sizing: border-box; */
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   
-}
-.bloodlogo{
+/* } */
+/* .bloodlogo{
   width: 40px;
   height: 40px;
   margin-left: 50px;
   cursor: pointer;
-}
-.navbar
+} */
+/* .navbar
 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #D9D9D9;
   color: black;
-}
-ul li{
+} */
+/* .text ul li{
   display: inline-block;
   padding:30px;
   color: black;
 }
-li a{
+.text li a{
   text-decoration: none;
 }
 .text1{
@@ -32,8 +32,8 @@ li a{
 }
 .text1 h3{
   font-weight: 300;
-}
-.text{
+} */
+/* .text{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -53,7 +53,7 @@ grid-gap: 40px;
   padding-left: 30px;
   padding-top: 30px;
 }
-input{
+.text input{
   border-radius: 10rem;
   border: none;
  padding-left: 10px;
@@ -61,7 +61,7 @@ input{
   box-sizing:  border-box;
 
 }
-.sign{
+.signn button {
   border-radius: 10px;
   background-color: #E69598;
   padding: 5px 5px;
@@ -79,10 +79,10 @@ input{
   border-bottom: 1px solid rgb(156, 156, 156);
   padding: 20px 90px;
 }
-.link{
+.text .link{
   color: #CB2C31 !important;
 }
-.check{
+.text .check{
   color: #CB2C31;
   background-color: red !important;
 }
@@ -92,4 +92,70 @@ input{
 
 
 
-
+ */
+.aline{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* grid-gap: 40px; */
+  padding: 10px;
+  }
+ .aline input{
+    border-radius: 10rem;
+    border: none;
+    padding-left: 10px;
+    box-shadow: 0 0.188em 1.55em rgb(156, 156, 156); 
+    box-sizing:  border-box;
+  }
+ .aline1{
+  width: 40rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.aline1 h3{
+  font-family:sans-serif;
+  font-weight: bold;
+}
+.aline21{
+  box-shadow: 1px 0.5px 2px #285793;
+  width: 40rem;
+  height: 40rem;
+  position: relative;
+  border-radius: 40px;
+  margin-top: 5px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.signn button {
+  border-radius: 10px;
+  background-color: #E69598;
+  padding: 5px 5px;
+  border: none;
+  margin-left: 40px;
+  color: white;
+}
+.signup{
+  color: #CB2C31;
+  margin-left: 80px;
+}
+#bloodgroup{
+  border: none;
+  border-radius: 2em;
+  border-bottom: 1px solid rgb(156, 156, 156);
+  padding: 20px 90px;
+}
+.text .link{
+  color: #CB2C31 !important;
+}
+.text .check{
+  color: #CB2C31;
+  background-color: red !important;
+}
+.image1{
+  width: 30rem;
+  height: 30rem;
+  position: relative;
+  transform: translate(10%, 10%);
+  overflow: visible;
+}
+ 

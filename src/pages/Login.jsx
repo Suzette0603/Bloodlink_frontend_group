@@ -1,4 +1,6 @@
 import React from 'react'
+import Logo from '../assets/Group 2410logo.svg'
+import '../styles/login.css'
 
 const Login = () => {
   return (
@@ -27,7 +29,7 @@ const Login = () => {
            </form>
            <p className='text'>Forgot password? <a href="">Click here</a></p>
            <button className='login-btn'>Login</button>
-           <p className='text'>Don't have an account? <a href="">Sign Up here</a></p>
+           <p className='text'>Don't have an account? <a href="/signup">Sign Up here</a></p>
            </div>
           
     

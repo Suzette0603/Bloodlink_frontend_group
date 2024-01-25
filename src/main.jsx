@@ -7,6 +7,8 @@ import Services from './pages/Services.jsx'
 import About from './pages/About.jsx'
 import Documentation from './pages/Documentation.jsx'
 import Contact from './pages/Contact.jsx'
+import Login from './pages/Login.jsx'
+import Signup from './pages/Signup.jsx'
 
 
 import './index.css'
@@ -22,6 +24,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route exact path='/about' element={<About/>}/>
             <Route exact path='/documentation' element={<Documentation/>}/>
             <Route exact path='/contact' element={<Contact/>}/>
+            <Route exact path='/login' element={<Login/>}/>
+            <Route exact path='/signup' element={<Signup/>}/>
           </Routes>
         </Router>
       </React.StrictMode>
