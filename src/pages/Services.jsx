@@ -3,12 +3,20 @@ import { FaCalendarPlus } from "react-icons/fa";
 import { FaAmbulance } from "react-icons/fa";
 import { TbUserQuestion } from "react-icons/tb";
 import '../styles/Services.css'
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
+
 function Services() {
   return (
     
     <>
-    <h3 className='header'>Services</h3>
-    <section className='services'>
+    <div>
+        < Navigation/>
+    </div>
+
+    <section>
+        <h3 className='header'><span>Our</span>Services</h3>
+    <div className='services'>
       <div className='services1'>
         <img src="/bookimg.jpg" alt="bookimg" />
        <FaCalendarPlus className='calendar' /> 
@@ -46,7 +54,13 @@ function Services() {
       <button className='serbtn'><a href="#">Read More</a></button>
       </div>
     </div>
+    </div>
     </section>
+
+    <div>
+        < Footer/>
+    </div>
+
     </>
   )
 }
