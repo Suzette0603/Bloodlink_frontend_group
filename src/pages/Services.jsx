@@ -2,6 +2,9 @@ import React from 'react'
 import { FaCalendarPlus } from "react-icons/fa";
 import { FaAmbulance } from "react-icons/fa";
 import { TbUserQuestion } from "react-icons/tb";
+import bookimg from '../assets/bookimg.jpg'
+import requestsimg from '../assets/requestsimg.jpg'
+import donateimg from '../assets/donateimg.jpg'
 import '../styles/Services.css'
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
@@ -18,7 +21,7 @@ function Services() {
         <h3 className='header'><span>Our</span>Services</h3>
     <div className='services'>
       <div className='services1'>
-        <img src="/bookimg.jpg" alt="bookimg" />
+        <img src={bookimg} alt="bookimg" />
        <FaCalendarPlus className='calendar' /> 
        <br />
       <br />
@@ -30,7 +33,7 @@ function Services() {
        </div>
       </div>
       <div className='services2'>
-        <img src="requestsimg.jpg" alt="requestsimg" />
+        <img src={requestsimg} alt="requestsimg" />
       <FaAmbulance className='ambulance' />
       <br />
       <br />
@@ -42,7 +45,7 @@ function Services() {
       </div>
      </div>
      <div className='services3'>
-      <img src="donateimg.jpg" alt="donateimg" />
+      <img src={donateimg} alt="donateimg" />
      <TbUserQuestion className='user' />
      <br />
       <br />

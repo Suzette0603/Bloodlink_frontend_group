@@ -50,10 +50,10 @@ const Navigation = () => {
                   </Link>
                 </li>
 
-                <li>
-                  <a class="getstarted scrollto" href="#about">
-                    Login/Register
-                  </a>
+                <li class="getstarted scrollto">
+                  <Link to="/login" className="link">
+                  Login/Register
+                  </Link>
                 </li>
               </ul>
               <i class="bi bi-list mobile-nav-toggle"></i>
