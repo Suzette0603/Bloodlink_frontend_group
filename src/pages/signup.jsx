@@ -6,7 +6,8 @@ import signuppic from '../assets/signuppic.gif'
 
 
 
-function signup() {
+function Signup() {
+   
     return (
         <>
             <section className="aline">
@@ -29,7 +30,7 @@ function signup() {
                             <label for="Role">Choose A Role:</label>
                             <select id="Role" name="Role">
                                 <option value="User">User</option>
-                                <option value="Hospital">Hospital</option>
+                                <option value="Hospital" id="Hospital">Hospital</option>
                             </select>
                             <br />
                             <br />
@@ -153,4 +154,4 @@ function signup() {
     );
 }
 
-export default signup;
+export default Signup;
