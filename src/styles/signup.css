@@ -89,23 +89,25 @@ grid-gap: 40px;
 .text1 h3{
   font-family:sans-serif;
 }
-
-
-
  */
+
 .aline{
   display: flex;
-  justify-content: space-evenly;
+  justify-content:center;
   align-items: center;
-  /* grid-gap: 40px; */
-  padding: 10px;
+  /* grid-gap: 40px;
+  padding: 10px; */
   }
- .aline input{
-    border-radius: 10rem;
+ .aline .signup-input{
+    /* border-radius: 10rem; */
     border: none;
     padding-left: 10px;
     box-shadow: 0 0.188em 1.55em rgb(156, 156, 156); 
     box-sizing:  border-box;
+    width: 90%;
+    height: 30px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
   }
  .aline1{
   width: 40rem;
@@ -118,44 +120,79 @@ grid-gap: 40px;
 }
 .aline21{
   box-shadow: 1px 0.5px 2px #285793;
-  width: 40rem;
-  height: 40rem;
-  position: relative;
-  border-radius: 40px;
-  margin-top: 5px;
+   width: 25rem;
+   height: 35rem; 
+  position: absolute;
+  border-radius: 20px;
   padding-left: 30px;
-  padding-top: 30px;
+   padding-top: 30px; 
+   border:  1px solid red; 
+   
 }
-.signn button {
+.alinesignn {
   border-radius: 10px;
   background-color: #E69598;
   padding: 5px 5px;
   border: none;
-  margin-left: 40px;
+  margin-left: 5rem;
   color: white;
 }
 .signup{
   color: #CB2C31;
   margin-left: 80px;
 }
-#bloodgroup{
+.alinebloodgroup{
   border: none;
-  border-radius: 2em;
-  border-bottom: 1px solid rgb(156, 156, 156);
-  padding: 20px 90px;
+  border: 1px solid black;
+  gap: 10px;
+  border-radius: 5px;
+  /* border-radius: 2em; */
 }
-.text .link{
+/* {
+  border-bottom: 1px solid #285793;
+  padding: 5px 5px;
+} */
+.alinelink{
   color: #CB2C31 !important;
 }
-.text .check{
+.alinecheckk{
   color: #CB2C31;
   background-color: red !important;
+   width: 20px;
+  height: 30px; 
+}
+.cont{
+  display: flex;
+}
+.all{
+  display: flex;
+}
+.all1{
+  display: flex;
 }
 .image1{
-  width: 30rem;
-  height: 30rem;
+  width: 40rem;
+  height: 40rem;
   position: relative;
-  transform: translate(10%, 10%);
+  transform: translate(5%, 10%);
   overflow: visible;
+}
+.hey{
+   padding-bottom: 25em; 
+   padding-right: 30em;
+  /* height: 100em; */
+}
+.box1{
+  width: 20px;
+  height: 20px;
+  margin-top: 0.25rem;
+}
+.checkbox-agree{
+ display: flex;
+ gap: 1rem;
+}
+#Role{
+  border: 1px solid black;
+  border-radius: 5px;
 }
  

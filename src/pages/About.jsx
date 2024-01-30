@@ -4,6 +4,7 @@ import { RiIndentIncrease } from "react-icons/ri";
 import { MdSecurity } from "react-icons/md";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import '../styles/about.css'
 
 const About = () => {
   return (
@@ -72,7 +73,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <div>
+      <div className="ft">
         < Footer/>
     </div>
    </>

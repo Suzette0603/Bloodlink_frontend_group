@@ -31,3 +31,8 @@
         box-shadow: 2px 5px 8px #395BA2;
         color: white;
     }
+    .docbtn{
+        padding: 7px 10px;
+        border: none;
+        border-radius: 10px;
+    }

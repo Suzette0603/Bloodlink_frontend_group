@@ -25,13 +25,16 @@ function signup() {
                     <div className="aline21">
                         <h3 className="signup">Sign Up</h3> 
                         <br />
-                        <form action="#">
+                        <form action="#" className="frm">
                             <label for="Role">Choose A Role:</label>
                             <select id="Role" name="Role">
                                 <option value="User">User</option>
                                 <option value="Hospital">Hospital</option>
                             </select>
                             <br />
+                            <br />
+                            <div className="cont">
+                            <div className="full">
                             <label for="FullName">Full name:</label>
                             <br />
                             <input
@@ -40,8 +43,11 @@ function signup() {
                                 id="FullName"
                                 placeholder="FullName"
                                 required
-                            />{" "}
+                                className="signup-input"
+                            />  
+                            </div> 
                             <br />
+                            <div className="ag">
                             <label for="Age">Age:</label>
                             <br />
                             <input
@@ -50,8 +56,13 @@ function signup() {
                                 id="Age"
                                 placeholder="Age"
                                 required
+                                className="signup-input"
                             />{" "}
+                            </div>
+                            </div>
                             <br />
+                            <div className="all">
+                            <div className="phone">
                             <label for="Phone number">Phone Number:</label>
                             <br />
                             <input
@@ -60,8 +71,11 @@ function signup() {
                                 id="Phone number"
                                 placeholder="Phone number"
                                 required
+                                className="signup-input"
                             />{" "}
+                            </div>
                             <br />
+                            <div className="loc">
                             <label for="Location">Location:</label>
                             <br />
                             <input
@@ -70,8 +84,13 @@ function signup() {
                                 id="Location"
                                 placeholder="Location"
                                 required
+                                className="signup-input"
                             />{" "}
+                            </div>
+                            </div>
                             <br />
+                            <div className="all1">
+                            <div className="em">
                             <label for="Email">Email:</label>
                             <br />
                             <input
@@ -80,8 +99,11 @@ function signup() {
                                 id="Email"
                                 placeholder="Email"
                                 required
+                                className="signup-input"
                             />{" "}
+                            </div>
                             <br />
+                            <div className="pass">
                             <label for="PassWord">PassWord:</label>
                             <br />
                             <input
@@ -90,11 +112,14 @@ function signup() {
                                 id="Password"
                                 placeholder="Password"
                                 required
+                                className="signup-input"
                             />{" "}
+                            </div>
+                            </div>
                             <br />
-                            <br />
+                          
                             <label for="Blood Group">Choose A Blood Group:</label>
-                            <select id="Blood Group" name="Blood Group">
+                            <select className="alinebloodgroup" name="Blood Group">
                                 <option value="A Positive">A+</option>
                                 <option value="A Negative">A-</option>
                                 <option value="B Positive">B+</option>
@@ -107,9 +132,12 @@ function signup() {
                             </select>
                             <br />
                             <br />
-                            <input type="checkbox" className="alinecheck" /> Agree To Terms and
-                            Conditions <br />
-                            <button className="alinesignn">Create Account</button>
+                           
+                            {/* <input type="checkbox" className="alinecheckk" /> */}
+                            <span className="checkbox-agree"><input type="checkbox" className="box1" /> 
+                             Agree To Terms and Conditions</span>
+                          <br />
+                            <button className="alinesignn" onClick={alert('Account Created Successfull!!!!')}>Create Account</button>
                             <br />
                             <p>
                                 already have an Account?{" "}
