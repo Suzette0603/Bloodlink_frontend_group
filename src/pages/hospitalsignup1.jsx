@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/hospitalsignup.css'
 
+
 function Hospitalsignup1() {
   return (
   <>
@@ -50,4 +51,6 @@ function Hospitalsignup1() {
   )
 }
 
+
 export default Hospitalsignup1
+

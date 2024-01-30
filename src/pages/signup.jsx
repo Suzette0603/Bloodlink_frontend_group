@@ -6,8 +6,7 @@ import signuppic from '../assets/signuppic.gif'
 // import {Link} from 'react-router-dom'
 // import bigsignuppic1 from '../assets/signuppic1.png'
 
-
-function signup() {
+function Signup() {
   const navigate = useNavigate();
     function handleNavigate(event) {
       event.preventDefault();
@@ -46,9 +45,11 @@ function signup() {
                             <label for="Role">Choose A Role:</label>
                             <select id="Role" name="Role" onChange={handleNavigate}>
                                 <option value="User">User</option>
+=======
                                 <option value="Hospital">
                                   Hospital
                                   </option>
+
                             </select>
                             <br />
                             <br />
@@ -170,5 +171,7 @@ function signup() {
             </section>
         </>
     );
+
                   }
-export default signup;
+export default Signup;
+
