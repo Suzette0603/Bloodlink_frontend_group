@@ -13,7 +13,7 @@ section{
   justify-content: center;
   align-items: center;
   gap: 3;
-  padding-top: 7%;
+  padding-top: 3rem;
   color: white;
   /* border-radius: 30px; */
  
@@ -54,12 +54,14 @@ section{
   height: 23rem;
   position: relative;
   overflow: hidden;
+ 
 }
 .services1 .calendar img{
   width: 19rem;
   height: 22rem;
   display: block;
   transition: transform 0.5s;
+ 
 }
 .services2{
   padding: 0px 0px;
@@ -226,4 +228,7 @@ transition: height 0.5s;
             border: none;
             border-radius: 10px;
             margin-top: 20px;
+            }
+            .f{
+              padding-top: 50px;
             }

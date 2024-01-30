@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0;
 }
+.logo{
+    margin-left: 50px;
+}
 .img {
     width: 80px;
     height: 80px;
@@ -52,7 +55,13 @@
     color: black;
 }
 .cover .login-btn {
-    background-color: #E69598;
+    background-color: #E69598 !important;
+}
+.login-btn{
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
 /* .footer {
     background: #e46d6d;

@@ -64,7 +64,7 @@ const Documentation = () => {
             Healthy adults aged 17-65, weighing over 110 pounds, without certain
             medical conditions, are eligible to donate blood and save lives..
           </p>
-          <button id="OnClick">Read More</button>
+          <button id="OnClick" className="docbtn">Read More</button>
         </div>
         <div className="box12">
           <h2>Process of Blood Donation.</h2>
@@ -74,7 +74,7 @@ const Documentation = () => {
             blood, which takes about 10-15 minutes. Afterwards, refreshments are
             provided.
           </p>
-          <button id="MyButton">Read More</button>
+          <button id="MyButton" className="docbtn">Read More</button>
         </div>
         <div className="box13">
           <h2>Pre & Post process of Blood Donation</h2>
@@ -84,7 +84,7 @@ const Documentation = () => {
             Post-donation, refreshments are provided, and donors are advised to
             rest briefly for recovery.
           </p>
-          <button id="Button">Read More</button>
+          <button id="Button" className="docbtn">Read More</button>
         </div>
         <div className="box14">
           <h2>Importance of Blood donation</h2>
@@ -94,7 +94,7 @@ const Documentation = () => {
             ensures a stable blood supply for those in need, promoting community
             health.
           </p>
-          <button id="OnButton">Read More</button>
+          <button id="OnButton" className="docbtn">Read More</button>
         </div>
       </section>
       

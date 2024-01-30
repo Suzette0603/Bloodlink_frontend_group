@@ -14,12 +14,14 @@ const Login = () => {
       </header>
     <div className='cover'>
         <h1>SignIn</h1>
+        
+       
           <div className='input1'><input type='text' placeholder='username'/>
           </div>
           <div  className='input2'>
           <input type='password' placeholder='password'/>
           </div> 
-          <form className='input3'>
+          <form className='input3' placeholder="Role">
            <select >
             <option value="Role"></option>
             <option value="User">user</option>
