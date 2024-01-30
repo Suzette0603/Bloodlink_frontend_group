@@ -29,6 +29,11 @@ const Navigation = () => {
                     Home
                   </Link>
                 </li>
+                <li class="nav-link scrollto active">
+                  <Link to="/dashboard" className="link">
+                    Dashboard
+                  </Link>
+                </li>
                 <li class="nav-link scrollto">
                   <Link to="/about" className="link">
                     About Us
