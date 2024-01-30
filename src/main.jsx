@@ -9,7 +9,8 @@ import Documentation from './pages/Documentation.jsx'
 import Contact from './pages/Contact.jsx'
 import Login from './pages/Login.jsx'
 import Signup from './pages/Signup.jsx'
-import Signup2 from './pages/hospitalsignup1.jsx'
+
+import Hospitalsignup1 from './pages/hospitalsignup.jsx'
 
 
 import './index.css'
@@ -19,7 +20,7 @@ import Appointment from './pages/user_dashboard/Appointment.jsx'
 import Notification from './pages/user_dashboard/Notification.jsx'
 import Main_dashboard from './pages/user_dashboard/Main_dashboard.jsx'
 import Main_page from './pages/Main_page.jsx'
-
+import Hospitalsignup1 from './pages/hospitalsignup.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
       <React.StrictMode>
@@ -34,7 +35,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               <Route exact path='/contact' element={<Contact/>}/>
               <Route exact path='/login' element={<Login/>}/>
               <Route exact path='/signup' element={<Signup/>}/>
-              <Route exact path='/signup2' element={<Signup2/>}/>
+              <Route exact path='/hospitalsignup1' element={<Hospitalsignup1/>}/>
             
             {/* Dashboard user_account pages  */}
           <Route path='/account' element={<Main_dashboard/>}>
@@ -43,6 +44,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path='notification' element={<Notification />} />
             <Route path='profile' element={<Profile />} />
           </Route>
+
           </Routes>
         </Router>
       </React.StrictMode>
