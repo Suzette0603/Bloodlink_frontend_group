@@ -9,10 +9,12 @@ import Documentation from './pages/Documentation.jsx'
 import Contact from './pages/Contact.jsx'
 import Login from './pages/Login.jsx'
 import Signup from './pages/Signup.jsx'
+import Hospitalsignup from './pages/hospitalsignup.jsx'
 
 
 import './index.css'
 import "bootstrap/dist/css/bootstrap.min.css";
+import Hospitalsignup1 from './pages/hospitalsignup.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
       <React.StrictMode>
@@ -26,6 +28,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route exact path='/contact' element={<Contact/>}/>
             <Route exact path='/login' element={<Login/>}/>
             <Route exact path='/signup' element={<Signup/>}/>
+            <Route exact path='/hospitalsignup' element={<Hospitalsignup1/>}/> 
           </Routes>
         </Router>
       </React.StrictMode>
