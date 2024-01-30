@@ -9,7 +9,7 @@ import Documentation from './pages/Documentation.jsx'
 import Contact from './pages/Contact.jsx'
 import Login from './pages/Login.jsx'
 import Signup from './pages/Signup.jsx'
-import Signup2 from './pages/Signup2.jsx'
+import Signup2 from './pages/hospitalsignup1.jsx'
 
 
 import './index.css'

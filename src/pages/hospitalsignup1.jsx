@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/hospitalsignup.css'
 
-function Signup2() {
+function HospitalSignup1() {
   return (
   <>
   <section className='text'>
@@ -38,4 +38,4 @@ function Signup2() {
   )
 }
 
-export default Signup2
+export default HospitalSignup1
